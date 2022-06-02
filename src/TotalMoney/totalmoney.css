@@ -1,0 +1,31 @@
+.containerValorTotal{
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+    height: 127.81px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.tituloValorTotal{
+    display: flex;
+    justify-content: space-between;
+}
+.valorTotal{
+    font-weight: bolder;
+}
+
+.saldo{
+    color: #FD377E;
+    font-weight: bolder;
+}
+.explicacao{
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #5B6166;  
+}

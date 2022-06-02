@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.containerOne{
+  width: 100%;
+  height: 263.047px;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+
+.descricao {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212529;
+}
+.inputText {
+  width: 100%;
+  height: 15%;
+  left: 0px;
+  top: 34.0999755859375px;
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+}
+.ex {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #868e96;
+}
+.boxValor {
+  margin: 0%;
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+.valueNumber {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.valueNumber > h2 {
+  left: 0.91064453125px;
+  top: 0px;
+  border-radius: nullpx;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #212529;
+}
+
+.valueNumber > input {
+  width: 100%;
+  height: 45%;
+  left: 0px;
+  top: 31px;
+  border-radius: 8px;
+  border: none;
+  padding: 0px, 16px, 0px, 16px;
+  background: #f8f9fa;
+}
+.valueType {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.valueType > h2 {
+  left: 1.07px;
+  font-family: "Inter" "sans-serif";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.valueType > select {
+  width: 100%;
+  height: 45%;
+  left: 0px;
+  top: 31px;
+  border-radius: 8px;
+  padding: 0px, 16px, 0px, 16px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+}
+
+.valueType > option {
+  height: 26px;
+  width: 44px;
+  left: 16px;
+  top: 11px;
+  border-radius: nullpx;
+  font-family: "Inter" sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5b6166;
+}
+
+.inserirValor{
+  width: 100%;
+  color: #ffff;
+  background: #FD377E;
+  border: 2px solid #FD377E
+}
